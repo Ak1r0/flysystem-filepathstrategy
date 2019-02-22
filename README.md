@@ -13,12 +13,12 @@ This is usefull to have the same archive/backup strategy whatever adapter you us
 ## Usage
 
 ```php
-$adapter = new League\Flysystem\Adapter\Local();
+$adapter = new \League\Flysystem\Adapter\Local();
 $config = new \League\Flysystem\Config();
 
-$strategy = new Santiane\GED\FilePathStrategy\YearMonthDayStrategy();
+$strategy = new \Ak1r0\Flysystem\FilePathStrategy\YearMonthDayStrategy();
 
-$filesystem = new \Santiane\GED\Filesystem($adapter, $config, $strategy);
+$filesystem = new \Ak1r0\Flysystem\Filesystem($adapter, $config, $strategy);
 
 // and then, basic usage.
 // For every 'write' method it will automatically add current "/year/month/day/" before your path
