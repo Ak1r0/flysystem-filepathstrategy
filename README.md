@@ -9,6 +9,9 @@ This is usefull to have the same archive/backup strategy whatever adapter you us
 + PHP 7 version
 
 ## Install
+```
+composer require ak1r0/flysystem-filepathstrategy
+```
 
 ## Usage
 
