@@ -1,5 +1,5 @@
 {
-    "name": "ak1r0/flysystem-nuxeo",
+    "name": "ak1r0/flysystem-filepathstrategy",
     "type": "library",
     "description": "Add a 'File path strategy' to Flysystem. Allow to set globaly how files must be stored.",
     "keywords": ["document", "ged", "flysystem"],
