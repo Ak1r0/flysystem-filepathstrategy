@@ -1,0 +1,31 @@
+{
+    "name": "ak1r0/flysystem-nuxeo",
+    "type": "library",
+    "description": "Add a 'File path strategy' to Flysystem. Allow to set globaly how files must be stored.",
+    "keywords": ["document", "ged", "flysystem"],
+    "authors": [
+        {
+            "name": "Stéphane Lucien-Vauthier",
+            "email": "direction@aslv-consulting.fr"
+        },
+        {
+            "name": "Matthieu Dos Santos",
+            "email": "webakiro@gmail.fr"
+        }
+    ],
+    "require": {
+        "php": "^5.4",
+        "league/flysystem": "^1.0"
+    },
+    "suggest": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Ak1r0\\": "src/"
+        }
+    },
+    "autoload-dev": {
+    }
+}
